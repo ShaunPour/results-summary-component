@@ -1,0 +1,75 @@
+header {
+    background-color: hsl(252, 100%, 67%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.score {
+    background-color: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score h2 {
+    font-size: 95px;
+}
+
+.score p {
+    font-size: 38px;
+    position: relative;
+    bottom: 2em;
+    padding-bottom: -35px;
+}
+
+.txt {
+    text-align: center;
+}
+
+.txt h2,.score {
+    color: #fff;
+}
+
+.txt p {
+    color: hsl(221, 100%, 96%);
+    width: 70%;
+    position: relative;
+    left: 3.4em;
+    font-size: 18px;
+    padding-bottom: 2em;
+}
+
+main {
+    position: absolute;
+    left: 16vw;
+    top: 60vh;
+}
+
+.reaction,.memory,.verbal,.visual {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.reaction p:first-of-type,.memory p:first-of-type,.verbal p:first-of-type,.visual p:first-of-type {
+    margin-right: 11em;
+}
+
+main button {
+    text-align: center;
+    border-radius: 20px;
+    padding: 1em 8em;
+    color: #fff;
+    background-color: hsl(224, 30%, 27%);
+}
