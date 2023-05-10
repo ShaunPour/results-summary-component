@@ -60,6 +60,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 0.2em 0.75em;
+    position: relative;
+    right: 2em;
 }
 
 .reaction p:first-of-type,.memory p:first-of-type,.verbal p:first-of-type,.visual p:first-of-type {
@@ -72,4 +77,22 @@ main button {
     padding: 1em 8em;
     color: #fff;
     background-color: hsl(224, 30%, 27%);
+}
+
+
+.reaction {
+    background-color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsl(234, 85%, 45%);
+    margin-bottom: 3em;
 }
