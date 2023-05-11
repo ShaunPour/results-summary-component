@@ -116,3 +116,38 @@ main button {
 .reaction img,.memory img,.verbal img,.visual img  {
     margin-right: 0.4em;
 }
+
+@media (min-width: 1440px) {
+    body {
+        background-color: hsl(241, 100%, 89%);
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .card header,.card main {
+        position: absolute;
+        top: 20vh;
+        left: 20vw;
+    }
+    .card main {
+        background-color: #fff;
+        left: 54vw;
+        padding-left: 5em;
+        padding-bottom: 12.2em;
+        padding-right: 5em;
+    }
+
+    header {
+        border-radius: 15px;
+        z-index: 100;
+    }
+
+    main {
+        border-radius: 0 15px 15px 0;
+    }
+}
