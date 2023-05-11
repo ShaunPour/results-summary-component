@@ -68,7 +68,7 @@ main {
 }
 
 .reaction p:first-of-type,.memory p:first-of-type,.verbal p:first-of-type,.visual p:first-of-type {
-    margin-right: 11em;
+    margin-right: 8em;
 }
 
 main button {
@@ -81,18 +81,38 @@ main button {
 
 
 .reaction {
-    background-color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.35);
+}
+
+.reaction p {
+    color: hsla(0, 100%, 67%, 1);
 }
 
 .memory {
-    background-color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.35);
+}
+
+.memory p {
+    color: hsl(39, 100%, 56%, 1);
 }
 
 .verbal {
-    background-color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.35);
+}
+
+.verbal p {
+    color:hsl(166, 100%, 37%, 1);
 }
 
 .visual {
-    background-color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.35);
     margin-bottom: 3em;
+}
+
+.visual p {
+    color: hsl(234, 85%, 45%, 1);
+}
+
+.reaction img,.memory img,.verbal img,.visual img  {
+    margin-right: 0.4em;
 }
