@@ -1,3 +1,7 @@
+body {
+    font-family: 'Hanken Grotesk';
+}
+
 header {
     background-color: hsl(252, 100%, 67%);
     color: #fff;
@@ -115,6 +119,14 @@ main button {
 
 .reaction img,.memory img,.verbal img,.visual img  {
     margin-right: 0.4em;
+}
+
+h1, .score p, .txt p, .reaction p, .memory p, .verbal p, .visual p {
+    color: hsl(224, 30%, 27%);
+}
+
+span {
+    font-weight: 800;
 }
 
 @media (min-width: 1440px) {
