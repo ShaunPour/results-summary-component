@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Github Repo](https://github.com/DarkPhoenixNinja92/results-summary-component)
-- Live Site URL: [Live Site via Github Pages](https://darkphoenixninja92.github.io/results-summary-component/)
+- Solution URL: [Solution Github Repo](https://github.com/shaunpour/results-summary-component)
+- Live Site URL: [Live Site via Github Pages](https://shaunpour.github.io/results-summary-component/)
 
 ## My process
 
@@ -49,7 +49,7 @@ This project I can't point to anything particular that it taught me. This was do
 - Website - [Shaun Pour](https://darkphoenixninja92.github.io/)
 - Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/DarkPhoenixNinja92)
 - Twitter - [@Dark_Ninja92](https://twitter.com/Dark_Ninja92)
-- GitHub - [@DarkPhoenixNinja92](https://github.com/DarkPhoenixNinja92)
+- GitHub - [@ShaunPour](https://github.com/ShaunPour)
 
 ## Acknowledgments
 
